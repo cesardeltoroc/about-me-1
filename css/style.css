@@ -1,0 +1,22 @@
+* {
+  background-color: rgb(255, 196, 0);
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  background-color: rgb(18, 231, 125);
+  padding: 1em;
+  width: 75%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+p {
+  text-align: center;
+  color: blue;
+  font-size: 2em;
+}
+footer {
+  text-align: right;
+}
