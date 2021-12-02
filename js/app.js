@@ -54,16 +54,16 @@ if (userCake === 'yes' || userCake === 'y'){
   
   for (let i=0; i < attemps; i++){
       while(userAnswer < 1 || userAnswer > 100){
-          userAnswer = prompt ('Please Try Again! A number 1-100')
+          userAnswer = parseInt(prompt ('Please Try Again! A number 1-100'))
       }
       if (userAnswer === correctAnswer){
           alert('DING DING DING.You got it right');
           alert('Game Winner!!');
           break;
       }else if (userAnswer > correctAnswer){
-          userAnswer = prompt('Sorry. Too high.Please try again a Number 1-100 ')   
+          userAnswer = parseInt(prompt('Sorry. Too high.Please try again a Number 1-100 ') )  
       }else if (userAnswer < correctAnswer){
-          userAnswer = prompt('Sorry.Too low.Please try again a Number 1-100')
+          userAnswer = parseInt(prompt('Sorry.Too low.Please try again a Number 1-100'))
       }
 
       if (i == 3){
