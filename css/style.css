@@ -17,6 +17,27 @@ p {
   color: blue;
   font-size: 2em;
 }
+
+h2 {
+  text-align: left;
+  font-style: bold;
+}
+ul {
+  text-emphasis: left;
+  font-style: oblique;
+
+}
+
+h3 {
+  text-align: center;
+  font-style: bold;
+}
+ol {
+  text-align: center;
+  font-style: oblique;
+}
+
+
 footer {
   text-align: right;
 }

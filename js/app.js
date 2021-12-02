@@ -1,6 +1,6 @@
 'use strict';
 //console.log ('hello world');//
-let userName = prompt ('What is you name?')
+let userName = prompt ('What is your name?')
     alert('Welcome to Jallow\'s About Me website ' + userName);
 
 
@@ -45,5 +45,67 @@ if (userCake === 'yes' || userCake === 'y'){
   alert('Yes I do like cake. ');
 }
 
-alert('Thank!! you for visiting my website and participate in the games  '  + userName);
 
+
+
+  let userAnswer = parseInt(prompt('Please guess a Number 1-100'));
+  let correctAnswer = 90
+  let attemps = 3
+  
+  for (let i=0; i < attemps; i++){
+      while(userAnswer < 1 || userAnswer > 100){
+          userAnswer = prompt ('Please Try Again! A number 1-100')
+      }
+      if (userAnswer === correctAnswer){
+          alert('DING DING DING.You got it right');
+          alert('Game Winner!!');
+          break;
+      }else if (userAnswer > correctAnswer){
+          userAnswer = prompt('Sorry. Too high.Please try again a Number 1-100 ')   
+      }else if (userAnswer < correctAnswer){
+          userAnswer = prompt('Sorry.Too low.Please try again a Number 1-100')
+      }
+
+      if (i == 3){
+          alert('the correct answer was '  + correctAnswer);
+          alert('Game Loser!!');
+
+      }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  alert('Thank!! you for visiting my website and participate in the games  '  + userName);
