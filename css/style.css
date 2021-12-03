@@ -19,12 +19,13 @@ p {
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
   font-style: bold;
 }
 ul {
-  text-emphasis: left;
+  text-emphasis: center;
   font-style: oblique;
+  list-style-position: inside;
 
 }
 
@@ -35,8 +36,11 @@ h3 {
 ol {
   text-align: center;
   font-style: oblique;
+  list-style-position: inside;
 }
-
+li {
+  text-align:center
+}
 
 footer {
   text-align: right;
