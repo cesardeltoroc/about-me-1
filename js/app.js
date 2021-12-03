@@ -2,11 +2,9 @@
 //console.log ('hello world');//
 let counter = 0;
 
-function userName() {
   let userName = prompt('What is your name?')
   alert('Welcome to Jallow\'s About Me website ' + userName);
-}
-userName();
+
 
 
 //Question 1
@@ -113,33 +111,34 @@ guessNumber();
 
 
 
-// //Question 7
-// let userQ7Guess =parseInt(prompt('What are the Factors of 12?'));
-// let correctAnswersArray = [1, 2, 3, 4, 6, 12];
-
-
-// for (let count=5; count > 0; count--){
-//   for (let i = 0;i < correctAnswersArray.length; i++){
-//     let correctNum = correctAnswersArray[i];
-//     if (userQ7Guess === correctNum){
-//       alert ('You got it Correct!');
-//       count = 1;
-//       break;
-//     }
-//     else if (userQ7Guess !== correctNum){
-//       userQ7Guess = prompt('Thats not right try again!');
-//     }
-//   if (i == 4){
-//     alert(`You are out of tries the correct answer was ${correctAnswersArray} `);
-//     count = 1
-//     break;
-//     }
-
-//   }
+//Question 7
+function guessFactor() {
+  let userQ7Guess =parseInt(prompt('What are the Factors of 12?'));
+  let correctAnswersArray = [1, 2, 3, 4, 6, 12];
   
   
-// }
+  for (let count=5; count > 0; count--){
+    for (let i = 0;i < correctAnswersArray.length; i++){
+      let correctNum = correctAnswersArray[i];
+      if (userQ7Guess === correctNum){
+        alert ('You got it Correct!');
+        count = 1;
+        break;
+      }
+      else if (userQ7Guess !== correctNum){
+        userQ7Guess = prompt('Thats not right try again!');
+      }
+    if (i == 4){
+      alert(`You are out of tries the correct answer was ${correctAnswersArray} `);
+      count = 1
+      break;
+      }
+  
+    }
+    
+    
+  }
+}
+guessFactor();
 
-
-
-// alert(`Thank!! you for visiting my website and participate in the games ${userName} ..You got ${counter}/6 .`);
+alert(`Thank!! you for visiting my website and participate in the games ${userName} ..You got ${counter}/6 .`);
