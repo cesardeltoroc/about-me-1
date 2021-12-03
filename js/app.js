@@ -51,14 +51,18 @@ questionThree();
 
 
 
-// //Question 4
-// let userSoccer = prompt('Do I like to play soccer?').toLowerCase();
+//Question 4
+function questionFour() {
+  let userSoccer = prompt('Do I like to play soccer?').toLowerCase();
 
-// if (userSoccer === 'yes' || userSoccer === 'y') {
-//   //console.log('Yes I do like to play soccer.');
-//   alert('Yes I do like to play soccer.');
-//   counter++;
-// }
+  if (userSoccer === 'yes' || userSoccer === 'y') {
+    //console.log('Yes I do like to play soccer.');
+    alert('Yes I do like to play soccer.');
+    counter++;
+  }
+}
+questionFour();
+
 
 
 
