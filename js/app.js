@@ -38,13 +38,17 @@ questionTwo();
 
 
 // //Question 3
-// let userVideoGame = prompt('Do I play video games?').toLowerCase();
+function questionThree(){
+  let userVideoGame = prompt('Do I play video games?').toLowerCase();
 
-// if (userVideoGame === 'yes' || userVideoGame === 'y') {
-//   //console.log('Yes I do play video games.');
-//   alert('Yes I do play video games. ');
-//   counter++;
-// }
+if (userVideoGame === 'yes' || userVideoGame === 'y') {
+  //console.log('Yes I do play video games.');
+  alert('Yes I do play video games. ');
+  counter++;
+}
+}
+questionThree();
+
 
 
 // //Question 4
