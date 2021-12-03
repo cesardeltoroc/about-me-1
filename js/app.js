@@ -24,14 +24,18 @@ questionOne();
 
 
 // //Question 2
-// let userLocation = prompt('Do I live in Seattle?').toLowerCase();
+function questionTwo() {
+  let userLocation = prompt('Do I live in Seattle?').toLowerCase();
 
-// if (userLocation === 'yes' || userLocation === 'y') {
-//   //console.log('Yes I do live live in Seattle');
-//   alert('Yes I do live in Seattle. ');
-//   counter++;
+  if (userLocation === 'yes' || userLocation === 'y') {
+    //console.log('Yes I do live live in Seattle');
+    alert('Yes I do live in Seattle. ');
+    counter++;
+  
+  }
+}
+questionTwo();
 
-// }
 
 // //Question 3
 // let userVideoGame = prompt('Do I play video games?').toLowerCase();
