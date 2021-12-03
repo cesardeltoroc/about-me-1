@@ -9,15 +9,19 @@ function userName() {
 userName();
 
 
-// //Question 1
-// let userAgeOne = prompt('Am I 29 years old?').toLowerCase();
+//Question 1
+function questionOne(){
+  let userAgeOne = prompt('Am I 29 years old?').toLowerCase();
 
-// if (userAgeOne === 'yes' || userAgeOne === 'y') {
-//   //console.log('YES, I am 29 years old');
-//   alert('Yes I am 29 years old. ');
-//   counter++;
+if (userAgeOne === 'yes' || userAgeOne === 'y') {
+  //console.log('YES, I am 29 years old');
+  alert('Yes I am 29 years old. ');
+  counter++;
 
-// }
+}
+}
+questionOne();
+
 
 // //Question 2
 // let userLocation = prompt('Do I live in Seattle?').toLowerCase();
