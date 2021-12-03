@@ -67,13 +67,17 @@ questionFour();
 
 
 // //Question 5
-// let userCake = prompt('Do I like cake?').toLowerCase();
+function questionFive(){
+  let userCake = prompt('Do I like cake?').toLowerCase();
 
-// if (userCake === 'yes' || userCake === 'y') {
-//   //console.log('Yes I do like cake.');
-//   alert('Yes I do like cake. ');
-//   counter++;
-// }
+  if (userCake === 'yes' || userCake === 'y') {
+    //console.log('Yes I do like cake.');
+    alert('Yes I do like cake. ');
+    counter++;
+  }
+}
+questionFive();
+
 
 
 
